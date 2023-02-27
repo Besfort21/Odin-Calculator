@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#screen {
+    height: 60px;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.optional {
+    display: flex;
+    flex-direction: row;
+}
+
+.optional #AC{
+    height: 40px;
+    border: 1px solid black;
+    flex: 50%;
+}
+
+.optional #Percentage{
+    height: 40px;
+    border: 1px solid black;
+    flex: 50%;
+}
