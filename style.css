@@ -1,12 +1,17 @@
-.container {
+body {
     display: flex;
     flex-direction: column;
+}
+
+.calcbody {
+    display: flex;
+    flex-direction: column;
+    flex: 80%;
 }
 
 #screen {
     height: 60px;
     border: 1px solid black;
-    flex-grow: 1;
 }
 
 .optional {
@@ -24,4 +29,28 @@
     height: 40px;
     border: 1px solid black;
     flex: 50%;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.numbers .number{
+    height: 40px;
+    border: 1px solid black;
+    flex:33%
+}
+
+.operators {
+    display: flex;
+    flex-direction: row;
+    flex: 20%;
+}
+
+.operators .operator {
+    height: 40px;
+    border: 1px solid black;
+    flex: 25%;
 }
